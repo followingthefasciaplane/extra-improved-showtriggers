@@ -1,28 +1,27 @@
-# New updates
+# Extra Improved Showtriggers
 
-## Customizable colors for all triggers.
-### Menu / Usage: !triggercolors
+This is a fork of a plugin published by blankbhop. Full credits listed at the bottom. 
+It needs further testing, but seems stable from preliminary testing.
 
-## Search and toggle visibility of individual triggers by targetname and classname.
-### Menu / Usage: !searchtriggers targetname
+Download and source: https://github.com/followingthefasciaplane/extra-improved-showtriggers
 
-# Improved Showtriggers
-
-### This plugin is for CS:S only, if anybody implements CS:GO functionality, create a pull request and I'll review it to be merged.
+## New updates:
+- Customizable color menu for triggers by classname, with a few special cases for trigger_multiple.
+- Search and toggle visibility of individual triggers by targetname.
 
 ## Dependencies
-### You need to be running KiD Fearless's output info plugin for improved-st to function.
+- output info plugin by KiD-Fearless, included in the GitHub repo.
 
 ## Credits
-### Base showtriggers made by [Ici](https://forums.alliedmods.net/showthread.php?t=290356)
-### Showtriggers redux made by [JoinedSenses](https://github.com/JoinedSenses)
-### Output Info Plugin made by [KiD Fearless](https://github.com/kidfearless)
-### Improved Showtriggers by [blankbhop](https://github.com/blankbhop)
+- Base showtriggers made by [Ici](https://forums.alliedmods.net/showthread.php?t=290356)
+- Showtriggers redux made by [JoinedSenses](https://github.com/JoinedSenses)
+- Output Info Plugin made by [KiD Fearless](https://github.com/kidfearless)
+- Improved Showtriggers by [blankbhop](https://github.com/blankbhop)
 
 ## Commands
-Command|Description
-:---:|:---:
-!showtriggers, !st|Display Triggers
-!showtriggerssettings, !stsettings, !sts|Allows you to toggle certain triggers to be drawn.
-!searchtriggers|Allows you to search for and toggle visibility of individual triggers by target name and classname.
-!triggercolors|Allows you to customize the colors of visible triggers.
+- `!showtriggers`, `!st` - Display all triggers
+- `!showtriggerssettings`, `!stsettings`, `!sts` - Menu to toggle triggers by class name
+- `!searchtriggers <targetname>` - Search for and toggle individual triggers by target name
+- `!triggercolors` - Menu to customize the colors of triggers by classname, with a few special cases for trigger_multiple
+
+![20240820062643_1](https://github.com/user-attachments/assets/9eced26c-3c3e-4284-b690-68bb121ea52b)
