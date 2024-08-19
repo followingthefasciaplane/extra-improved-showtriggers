@@ -4,7 +4,7 @@
 ### Menu / Usage: !triggercolors
 
 ## Search and toggle visibility of individual triggers by targetname and classname.
-### Menu / Usage: !searchtriggers <targetname>
+### Menu / Usage: !searchtriggers targetname
 
 # Improved Showtriggers
 
